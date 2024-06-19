@@ -1,0 +1,31 @@
+/* Button.css */
+
+.arrow-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "jost";
+  font-weight: 700;
+  position: relative; /* Add this line */
+  z-index: 1; 
+  border: none;
+  background-color: rgba(73, 119, 53, 0.51);
+  color: #f8f8f8;
+  font-size: 2rem;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 30%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
+.arrow {
+  margin-left: 10px;
+  width: 2.6875rem;
+  height: 1.8125rem;
+  top: 1.5625rem;
+  left: 19.375rem;
+  background-image: url("../resources/Vector.svg"); /* Path to the arrow image */
+  background-size: initial; /* Scale the background image to fit */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+}

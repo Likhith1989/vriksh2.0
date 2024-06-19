@@ -1,0 +1,89 @@
+.wrapper1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7%;
+  margin-top: 10%;
+}
+
+/* Styles for the text section on the left */
+.text-section1 {
+  flex: 1; /* Take up remaining space */
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.text-sec3 {
+  font-family: "jost";
+  font-size: 2.1rem; /* 32px / 16px = 2rem */
+  font-weight: 400; /* Adjusted to 400 */
+  line-height: 2.89rem; /* 46.24px / 16px = 2.89rem */
+  text-align: left;
+}
+
+/* Styles for the box section on the right */
+.box-section1 {
+  opacity: 0px;
+  width: 35rem;
+  height: 39rem;
+
+  margin-right: 8%;
+}
+.head1 {
+  font-family: "jost";
+  font-size: 2.5rem; /* 40px / 16 = 2.5rem */
+  font-weight: 600;
+  line-height: 3.6125rem; /* 57.8px / 16 = 3.6125rem */
+  text-align: center;
+}
+
+.ver-line {
+  width: 35rem; /* 433px / 16 = 27.0625rem */
+  margin-left: 1.84%;
+  margin-bottom: 2%;
+}
+.hor-line {
+  position: relative;
+  display: flex;
+  width: 2rem; /* 433px / 16 = 27.0625rem */
+  height: 30rem;
+  margin-top: 3%;
+}
+
+.greenshort1 {
+  display: flex;
+  padding: 5%;
+  z-index: 1;
+  width: 13rem;
+  border: none;
+  background-color: rgba(126, 217, 87, 1);
+  transform: rotate(-90deg);
+  border-radius: 16px;
+}
+.greenshort {
+  display: flex;
+  padding: 5%;
+  z-index: 1;
+  width: 25rem;
+  border: none;
+  background-color: rgba(126, 217, 87, 1);
+  transform: rotate(-90deg);
+  border-radius: 16px;
+  cursor: pointer;
+  justify-content: right;
+}
+.graph1 {
+  font-family: "jost";
+  font-size: 2rem; /* 40px / 16 = 2.5rem */
+  font-weight: 600;
+  line-height: 3.6125rem; /* 57.8px / 16 = 3.6125rem */
+  text-align: left;
+  margin-left: 20%;
+}
+.graph2 {
+  font-family: "jost";
+  font-size: 2rem; /* 40px / 16 = 2.5rem */
+  font-weight: 600;
+  line-height: 3.6125rem; /* 57.8px / 16 = 3.6125rem */
+  text-align: left;
+  margin-left: 12%;
+}

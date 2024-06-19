@@ -1,0 +1,179 @@
+/* App.css */
+
+/* Styles for the wrapper */
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.text-section {
+  flex: 1;
+  margin-right: 4%;
+  margin-left: 5%;
+}
+.text-sec {
+  font-family: "jost";
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 6.76rem;
+  text-align: left;
+}
+.text-sec2 {
+  font-family: "jost";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.89rem;
+  text-align: left;
+}
+
+/* .box-section {
+  border-radius: 1rem 1rem 1rem 1rem;
+  opacity: 0px;
+  width: 35rem;
+  height: 39rem;
+  background-color: rgba(255, 255, 255, 1);
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-right: 3%;
+  
+}
+.box-sec {
+  font-family: "jost"; 
+  font-size: 3rem; 
+  font-weight: 800;
+  line-height: 4.335rem; 
+  text-align: center;
+  color: rgba(126, 217, 87, 1);
+}
+.box-section ul {
+  list-style-type: none; 
+
+}
+
+
+.box-section li {
+  font-family: "jost"; 
+  font-size: 2rem; 
+  font-weight: 600;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  line-height: 2.89rem; 
+  text-align: left;
+}
+
+.box-section li::before {
+  content: "\2022"; 
+  color: rgba(0, 0, 0, 1); 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em; 
+  
+}
+
+
+.left-svg {
+  position: relative;
+  bottom: 20%;
+  width: 10rem; 
+  height: auto; 
+  right: 0;
+}
+
+.right-svg {
+  left: 0;
+  padding-right: 48.573%;
+  position: relative;
+  bottom: 20%;
+  width: 8rem; 
+  height: auto; 
+  
+} */
+
+.box-section {
+  border-radius: 1rem;
+  opacity: 1; /* Changed from 0px to 1 to make it visible */
+  width: 35rem;
+  height: 39rem;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-right: 3%;
+}
+
+.box-sec {
+  font-family: "jost"; /* Apply font family */
+  font-size: 3rem; /* 48px / 16px = 3rem */
+  font-weight: 800;
+  line-height: 4.335rem; /* 69.36px / 16px = 4.335rem */
+  text-align: center;
+  color: rgba(126, 217, 87, 1);
+}
+
+.box-section ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove left padding */
+}
+
+.box-section li {
+  font-family: "jost"; /* Apply font family */
+  font-size: 2rem; /* 32px / 16px = 2rem */
+  font-weight: 600;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  line-height: 2.89rem; /* 46.24px / 16px = 2.89rem */
+  text-align: left;
+}
+
+.box-section li::before {
+  content: "\2022"; /* Unicode character for bullet point (•) */
+  color: rgba(0, 0, 0, 1); /* Color of the bullet point */
+  display: inline-block;
+  width: 1em; /* Adjust as needed */
+  margin-left: -1em; /* Adjust as needed to position the bullet point */
+}
+
+.left-svg {
+  position: relative;
+  bottom: 20%;
+  width: 10rem; /* Adjust width as needed */
+  height: auto;
+  right: 0;
+}
+
+.right-svg {
+  left: 0;
+  padding-right: 48.573%;
+  position: relative;
+  bottom: 20%;
+  width: 8rem; /* Adjust width as needed */
+  height: auto;
+}
+
+.glit {
+  font-family: "jost";
+  font-weight: 600;
+  color: #7ed957;
+}
+
+.plant-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: "jost";
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  border: none;
+  background-color: rgba(126, 217, 87, 1);
+  color: #f8f8f8;
+  font-size: 3rem;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.plant-text {
+  color: rgba(0, 0, 0, 1);
+}

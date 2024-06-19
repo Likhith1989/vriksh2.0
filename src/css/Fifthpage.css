@@ -1,0 +1,73 @@
+.wrapup {
+  margin-bottom: 10%;
+}
+
+.no-plant {
+  font-family: "jost";
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  padding-top: 2%;
+  color: black;
+  text-align: center;
+  padding-bottom: 3%;
+  margin-top: 15%;
+}
+.text-1 {
+  font-family: "Inter";
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.text-2 {
+  font-family: "Inter";
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  margin-left: 40%;
+}
+.plant-container {
+  text-align: left; /* Center the text and images horizontally */
+  margin: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.plant-container2 {
+  text-align: right; /* Center the text and images horizontally */
+  margin: 20px;
+  margin-top: 5%;
+}
+.bar-contain {
+  position: relative;
+  display: inline-block;
+}
+.bar-contain2 {
+  position: relative;
+  display: inline-block;
+}
+.bar-l2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.bar-l1 {
+  position: relative;
+}
+.number-label {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  text-align: center;
+  z-index: 3; /* Ensure the number is above the images */
+  /* Adjust the font size as needed */
+  font-weight: 700; /* Make the number bold */
+  color: #000; /* Adjust the color as needed */
+}

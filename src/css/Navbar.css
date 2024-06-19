@@ -1,0 +1,61 @@
+
+.navbar {
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-right: 3%;
+    background-color:rgba(73, 119, 53, 0.51);
+  
+  }
+  .logo {
+    color: white;
+    font-size: 3rem;
+    font-family: 'jost';
+    font-weight: 600;
+    padding-left: 10%;
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-family: 'jost';
+    
+  }
+  
+  .nav-links li {
+    margin-right: 10rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 1.5rem;
+
+  }
+  
+  .login-link {
+    color: white;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    
+  }
+  
+  .avatar {
+    width: 4.125rem;
+    height: 4.125rem;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
