@@ -113,21 +113,21 @@ const PaymentOptions = () => {
   };
 
   return (
-    <div className="text-center mt-10">
+    <div className="relative flex flex-col items-center text-center mt-10">
       <h1 className="text-2xl mb-6">Choose your payment method</h1>
       <button
         className="mb-4 px-4 py-2 bg-blue-500 text-white rounded"
         onClick={makePayment}
       >
-        Pay with Stripe
+        Pay with Stripe (INR)
       </button>
       <button
         onClick={handle1}
         className="mb-4 px-4 py-2 bg-green-500 text-white rounded"
       >
-        Pay with Razorpay
+        Pay with Razorpay (INR)
       </button>
-      <div>
+      <div className="mx-10 my-10">
         <Paypal />
       </div>
     </div>
