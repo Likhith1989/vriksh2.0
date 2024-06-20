@@ -8,7 +8,7 @@ const PaymentOptions = () => {
   const navigate = useNavigate();
 
   async function handle1() {
-    const apiUrl = "https://paymentgateway-oin3.onrender.com/api/order";
+    const apiUrl = "https://payment-backend-gevn.onrender.com/api/order";
 
     const formData = {
       username: "username",
@@ -37,7 +37,7 @@ const PaymentOptions = () => {
       handler: async function (response) {
         const body = { ...response };
         const validate = await fetch(
-          "https://paymentgateway-oin3.onrender.com/api/order/validate",
+          "https://payment-backend-gevn.onrender.com/api/order/validate",
           {
             method: "POST",
             headers: {
@@ -93,7 +93,7 @@ const PaymentOptions = () => {
       "Content-Type": "application/json",
     };
     const response = await fetch(
-      "http://localhost:7001/api/create-checkout-session",
+      "https://payment-backend-gevn.onrender.com/api/create-checkout-session",
       {
         method: "POST",
         headers: headers,

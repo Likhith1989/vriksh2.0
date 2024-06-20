@@ -30,22 +30,25 @@ function Paypal() {
           }}
           createOrder={async () => {
             try {
-              const response = await fetch("http://localhost:7001/api/orders", {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                },
-                // use the "body" param to optionally pass additional order information
-                // like product ids and quantities
-                body: JSON.stringify({
-                  cart: [
-                    {
-                      id: 12345,
-                      quantity: 10,
-                    },
-                  ],
-                }),
-              });
+              const response = await fetch(
+                "https://payment-backend-gevn.onrender.com/api/orders",
+                {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  // use the "body" param to optionally pass additional order information
+                  // like product ids and quantities
+                  body: JSON.stringify({
+                    cart: [
+                      {
+                        id: 12345,
+                        quantity: 10,
+                      },
+                    ],
+                  }),
+                }
+              );
 
               const orderData = await response.json();
 
@@ -67,7 +70,7 @@ function Paypal() {
           onApprove={async (data, actions) => {
             try {
               const response = await fetch(
-                `http://localhost:7001/api/orders/${data.orderID}/capture`,
+                `https://payment-backend-gevn.onrender.com/api/orders/${data.orderID}/capture`,
                 {
                   method: "POST",
                   headers: {
